@@ -8,6 +8,9 @@ Aug 15, 2018
 ## Synopsis
 
 BOX.com API 2.0 calls for folder and user objects
+Note: you must setup a JSON JWT auth switch to run this.
+https://developer.box.com/docs/setting-up-a-jwt-app
+
 
 ## Code Example
 
