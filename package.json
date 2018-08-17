@@ -1,0 +1,21 @@
+{
+  "name": "boxapp",
+  "version": "1.0.0",
+  "description": "boxapp to depricate accounts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "box",
+    "sdk"
+  ],
+  "author": "Timothy Halley",
+  "license": "ISC",
+  "dependencies": {
+    "box-node-sdk": "^1.19.0",
+    "node-cleanup": "^2.1.2",
+    "pretty-ms": "^3.2.0",
+    "signale": "^1.2.1"
+  }
+}
