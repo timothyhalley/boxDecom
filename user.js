@@ -191,7 +191,7 @@ function setUserStatus(boxClient, boxUID) {
     //interactive.watch('Setting user status to inactive: %d ', boxUID);
     // box status: active, inactive, cannot_delete_edit, or cannot_delete_edit_upload
 
-    boxClient.users.update(boxUID, {status: 'inactive'})
+    boxClient.users.update(boxUID, {status: 'cannot_delete_edit_upload'})
       .then(userInfo => {
 
         resolve(userInfo.status);
